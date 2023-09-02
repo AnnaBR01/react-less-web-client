@@ -29,7 +29,8 @@
     width: 11%;
   }
 
-  &__sum {
+  &__balance {
+    min-width: 120px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -41,7 +42,7 @@
   }
 }
 
-.sum {
+.balance {
   &__button {
     display: flex;
     align-items: center;
@@ -53,7 +54,6 @@
     color: inherit;
     font-size: 12px;
     font-weight: 400;
-    transition: all 1s linear;
 
     &:hover {
       background-color: @accentHover;
@@ -61,6 +61,10 @@
 
     &:active {
       background-color: @accentActive;
+    }
+
+    &--allWidth {
+      width: 100%;
     }
   }
 

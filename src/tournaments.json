@@ -6,24 +6,63 @@
     "title": "OFC Pineapple",
     "date": "12:00 pm, 28 July",
     "playersNumber": "1000/1000",
-    "prize": 1000000
+    "tourney": 1000000,
+    "tags": [],
+    "pin": true
   },
   {
     "id": 2,
+    "status": "Registering",
+    "type": "NL Holdem",
+    "title": "OFC Pineapple",
+    "date": "12:00 pm, 28 July",
+    "playersNumber": "1/6",
+    "tourney": 100,
+    "tags": [],
+    "pin": true
+  },
+  {
+    "id": 3,
+    "status": "Canceled",
+    "type": "NL OFC/pineapple prg",
+    "title": "Hourly Freeroll",
+    "date": "12:00 pm, 28 July",
+    "playersNumber": "1/10 000",
+    "tourney": 1000,
+    "tags": ["time", "freeRoll"],
+    "pin": true
+  },
+  {
+    "id": 4,
+    "status": "Canceled",
+    "type": "PL Omaha h/l",
+    "title": "Rapid Tournament",
+    "date": "12:00 pm, 28 July",
+    "playersNumber": "0/0",
+    "tourney": 1000,
+    "tags": [],
+    "pin": false
+  },
+  {
+    "id": 5,
+    "status": "Canceled",
+    "type": "NL 6 cards omaha h/l",
+    "title": "PL Omaha Knockout",
+    "date": "12:00 pm, 28 July",
+    "playersNumber": "0/100",
+    "tourney": 146,
+    "tags": ["rapid"],
+    "pin": false
+  },
+  {
+    "id": 6,
     "status": "Registering",
     "type": "NL 2-7 Triple Draw",
     "title": "OFC Pineapple",
     "date": "12:00 pm, 28 July",
     "playersNumber": "1000/1000",
-    "prize": 1000000
-  },
-  {
-    "id": 3,
-    "status": "Canceled",
-    "type": "NL 2-7 Triple Draw",
-    "title": "OFC Pineapple",
-    "date": "12:00 pm, 28 July",
-    "playersNumber": "1000/1000",
-    "prize": 1000000
+    "tourney": 1000000,
+    "tags": [],
+    "pin": false
   }
 ]

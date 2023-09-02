@@ -6,9 +6,8 @@ import { OpenIcon } from '../../assets/icons/OpenIcon';
 import { PaintedStarIcon } from '../../assets/icons/PaintedStarIcon';
 import { StarIcon } from '../../assets/icons/StarIcon';
 
-export const PlayerInfo = () => {
+export const PlayerInfo = ({ rating }) => {
   const [isClose, toggleIsClose] = useState(false);
-  const rating = 5;
 
   return (
     <div className="playerInfo">
@@ -27,11 +26,18 @@ export const PlayerInfo = () => {
 
       <img src={avatar} alt="Player avatar" className="playerInfo__avatar" />
 
-      <div className="playerInfo__sum sum">
-        <button className="sum__button" onClick={() => toggleIsClose(!isClose)}>
+      <div className="playerInfo__balance balance">
+        <button
+          className={
+            isClose
+              ? 'balance__button'
+              : 'balance__button balance__button--allWidth'
+          }
+          onClick={() => toggleIsClose(!isClose)}
+        >
           {isClose ? <CloseIcon /> : <OpenIcon />} {!isClose && 'Show balance'}
         </button>
-        {isClose && <span className="sum__number">$100,500.00</span>}
+        {isClose && <span className="balance__number">$100,500.00</span>}
       </div>
     </div>
   );
