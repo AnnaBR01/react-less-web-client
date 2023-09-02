@@ -1,0 +1,27 @@
+@import '../../index.less';
+
+.loader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  &__wrapper {
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background: @secondaryLight;
+  }
+
+  &__inner {
+    height: 100%;
+    background-color: @accent;
+    border-radius: 4px;
+    transition: width 1s linear;
+  }
+
+  &__count {
+    font-weight: 400;
+    color: @primary;
+  }
+}

@@ -1,0 +1,30 @@
+@import './index.less';
+
+.app {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 32px 8px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: 400;
+    color: @primary;
+  }
+
+  &__playerInfo {
+    width: 100%;
+    margin-block: 24px 20px;
+  }
+
+  &__tournaments {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
